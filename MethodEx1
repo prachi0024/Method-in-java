@@ -1,0 +1,18 @@
+
+public class MethodEx2 {
+	public static void main(String[] args) {
+		int result = MinFunction(20,80);
+		System.out.println("smallest is : "+result);
+	}
+      public static int MinFunction(int a,int b)
+      {
+    	  if(a<b)
+    	  {
+    		  return a;
+    	  }
+    	  else
+    	  {
+    		  return b;
+    	  }
+      }
+}
